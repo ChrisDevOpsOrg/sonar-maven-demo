@@ -30,7 +30,7 @@ public class Calculator {
   * Multiply method.
   */
   public long multiply(int a, int b) {
-    return Long.valueOf(a * b);
+    return a * b;
   }
 
   /**
