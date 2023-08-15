@@ -15,7 +15,7 @@ public class FooTest {
     int a = 56; int b = 10; 
     double expectedResult = 5.6; 
     double result = Foo.div(a, b);
-    Assert.assertEquals(expectedResult, result,0.00005); 
+    assertEquals(expectedResult, result,0.00005); 
   }
   
   @Test(expected = IllegalArgumentException.class)
