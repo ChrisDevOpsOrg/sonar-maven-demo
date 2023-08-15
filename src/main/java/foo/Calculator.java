@@ -4,6 +4,9 @@ package calculator;
  * Foo class
  */
 public class Calculator {
+
+  String msg  = "Hello SonarCloud";
+  
   //no-arg constructor
   public Calculator() {
 
