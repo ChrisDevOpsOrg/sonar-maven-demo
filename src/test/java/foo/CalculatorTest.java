@@ -1,6 +1,6 @@
-package calculator
+package calculator;
 
-import calculator.Calculator
+import calculator.Calculator;
 import org.junit.Test; 
 import org.junit.Assert; 
 import org.junit.Before;
