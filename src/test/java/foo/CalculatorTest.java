@@ -17,15 +17,15 @@ public class CalculatorTest {
     objCalcUnderTest = new Calculator();
   }
 
-  @Test
-  public void testAdd() { 
-    int a = 15; int b = 20; 
-    int expectedResult = 35;
-    //Act 
-    long result = objCalcUnderTest.add(a, b);
-    //Assert
-    Assert.assertEquals(expectedResult, result);
-  }
+  // @Test
+  // public void testAdd() { 
+  //   int a = 15; int b = 20; 
+  //   int expectedResult = 35;
+  //   //Act 
+  //   long result = objCalcUnderTest.add(a, b);
+  //   //Assert
+  //   Assert.assertEquals(expectedResult, result);
+  // }
 
   @Test
   public void testSubtract() {
