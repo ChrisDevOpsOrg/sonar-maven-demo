@@ -31,7 +31,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: https://sonarcloud.io
         with:
-          projectBaseDir: ${{ github.workspace }}/target
+          projectBaseDir: ${{ github.workspace }}/src
           args: >
             -Dsonar.projectKey=ChrisDevOpsOrg_sonar-maven-demo
             -Dsonar.organization=chrisdevopsorg
