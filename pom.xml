@@ -8,9 +8,9 @@
     <url>https://github.com/SonarSource/sq-com_example_java-maven-travis</url>
 
     <scm>
-        <connection>scm:git:git@github.com:SonarSource/sq-com_example_java-maven-travis.git</connection>
-        <developerConnection>scm:git:git@github.com:SonarSource/sq-com_example_java-maven-travis.git</developerConnection>
-        <url>https://github.com/SonarSource/sq-com_example_java-maven-travis</url>
+        <connection>scm:git:git@github.com:ChrisDevOpsOrg/sonar-maven-demo.git</connection>
+        <developerConnection>scm:git:git@github.com:ChrisDevOpsOrg/sonar-maven-demo.git</developerConnection>
+        <url>https://github.com/ChrisDevOpsOrg/sonar-maven-demo</url>
     </scm>
 
     <properties>
