@@ -20,7 +20,7 @@
         <sonar.organization>chrisdevopsorg</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.coverage.jacoco.xmlReportPaths>
-            ${project.build.directory}/target/site/jacoco/jacoco.xml
+            ${project.build.basedir}/target/site/jacoco/jacoco.xml
         </sonar.coverage.jacoco.xmlReportPaths>
     </properties>
 
