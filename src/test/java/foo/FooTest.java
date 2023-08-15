@@ -12,15 +12,11 @@ public class FooTest {
 
   @Test
   public void testDivide() {
-    int a = 56; int b = 10; 
-    double expectedResult = 5.6; 
-    double result = Foo.div(a, b);
-    assertEquals(expectedResult, result,0.00005); 
+    assertEquals(Foo.div(56, 10), 5.6);
   }
   
   @Test(expected = IllegalArgumentException.class)
   public void testDivideByZero() { 
-    int a = 15; int b = 0;
-      Foo.div(a, b);
-    } 
+    assertEquals(Foo.div(30, 0));
+  }
 }
