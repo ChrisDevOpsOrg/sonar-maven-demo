@@ -6,7 +6,6 @@
     <version>1.0-SNAPSHOT</version>
     <name>Sona-Maven-Demo</name>
     <url>https://github.com/ChrisDevOpsOrg/sonar-maven-demo</url>
-    
 
     <scm>
         <connection>scm:git:git@github.com:ChrisDevOpsOrg/sonar-maven-demo.git</connection>
