@@ -5,7 +5,7 @@ package calculator;
  */
 public class Calculator {
 
-  String msg  = "Hello SonarCloud";
+  // String msg  = "Hello SonarCloud";
   
   //no-arg constructor
   public Calculator() {
