@@ -46,7 +46,7 @@ jobs:
       #     projectBaseDir: ${{ github.workspace }}/src
       #     args: >
       #       -Dsonar.projectKey=ChrisDevOpsOrg_sonar-maven-demo
-      #       -Dsonar.organization=chrisdevopsorg
+      #       -Dsonar.organization=chrisdevopsorg 
           
       - name: Cache SonarCloud packages
         uses: actions/cache@v3
