@@ -83,4 +83,4 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           # mvn -X -Dsonar.projectKey=ChrisDevOpsOrg_sonar-maven-demo -Dsonar.coverage.jacoco.xmlReportPaths=${{ github.workspace }}/target/site/jacoco/jacoco.xml sonar:sonar -P coverage
-          mvn -X sonar:sonar -P coverage -Dsonar.projectKey=ChrisDevOpsOrg_sonar-maven-demo
+          mvn  sonar:sonar -P coverage -Dsonar.projectKey=ChrisDevOpsOrg_sonar-maven-demo
